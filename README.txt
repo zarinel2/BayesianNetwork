@@ -1,3 +1,6 @@
+Quick Description:
+This allows you to create BayesianNetworks from files and run a Rejection Sampler (with however many samples you like) and an Enumerator on them.
+
 (a) Contributors:
 
 Name: William Tyler Wilson, Samuel Triest, Alex McKinley
@@ -5,12 +8,9 @@ Contact: wwils11@u.rochester.edu, striest@u.rochester.edu, amckinl2@u.rochester.
 
 (b) How to Build the Project:
 
-Included is the zip file with CSC242_CompleteProject3 directory. Inside terminal, cd inside directory (CSC242_CompleteProject3):
-(assuming current working directory is where the ‘CSC_242_Project_3_v2 ’ un-zipped folder is, run the following commands).
+Commands to run (after unzipping and changing directory to inside zip folder where README.txt): 
 
-Commands to run (after unzipping and changing directory to inside zip folder where README.txt is and the WriteUp_Tyler.pdf): 
-
-1.	cd CSC_242_Project_3_v2
+1.	cd BayesianNetwork
 2.	cd src
 3.	javac *.java				      (this compiles)
 4. 	java Enumerator aima-alarm.xml B J true M true        (example run command)
